@@ -1,5 +1,9 @@
 # Practical assignment
 
+**Due date: 31 May, 2020 at midnight (UTC-4).
+Changes made to repositories after this time will not be considered during grading. 
+Please refer to the description below for instructions on how to submit your repository.**
+
 You have seen during class that we worry quite a lot about "p-hacking" (or the equivalent in machine learning; e.g., [see this short press article](https://venturebeat.com/2018/04/24/its-time-to-address-the-reproducibility-crisis-in-ai/)).
 See for instance the 2011 [Simmons and Simonsohn](https://journals.sagepub.com/doi/full/10.1177/0956797611417632) describing how poor statistical practices can impact generated p-values.
 This exercise is designed to demonstrate how researchers can (easily) produce false positives or inflated prediction rates via p-hacking.
@@ -34,3 +38,30 @@ In this assignment we are asking you to:
 - Can your code be easily run on another machine following the instructions provided ? (Tip: include a "requirements.txt")
 - Does your code produce informative graphics ? (Note: please include the figures in your submission.)
 - How "creative" have you been to boost your prediction / association values?
+
+## FAQ
+
+**Q.** "Can I work with other students in the course on my assignment?"  
+**A.** You are allowed to discuss the assignment with other students but you must submit independent work.
+While there can be natural similarities between submitted models, we will be checking for code duplication and cases of excessive similarity. 
+
+**Q.** "How do I submit my assignment?"  
+**A.** In order to officially submit your work you must add [@jbpoline](https://github.com/jbpoline) as a [collaborator](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository) to your fork of the repository.
+
+**Q.** "Does this count towards my grade for the course?"  
+**A.** Yes, this will count for 50% of your grade for the QLSC 612 course (20% is based on the first assessment on Tuesday, 12 May and 30% is based on the second assessment on Friday, 15 May).
+Note, you do NOT need to complete this assignment if you are not taking the QLSC 612 course for credit (but you are welcome to do so if you'd like to practice with the skills and techniques you learned throughout the week!)
+
+**Q.** "Can I ask TAs for help on the assignment?"  
+**A.** Of course! 
+You are more than welcome to ask TAs if you have questions about the assignment.
+That said, we cannot guarantee the TAs will be able to answer all your questions, since the goal of the assignment is to ensure you have the opportunity to practice + develop the skills from the course.
+
+**Q.** "Should I show all the different attempts at p-hacking I performed?"  
+**A.** No!
+Please only include the derived data and model that was "significant" according to the above specifications.
+You should also be sure to include the check with `partY2`!
+
+**Q.** "How should I organize my submission?"  
+**A.** As long as you have the required submission files you are welcome to structure your submission however you would like (though we request nothing too complex!).
+Please refer to [@emdupre](https://github.com/emdupre)'s ["Standards for project management and data organization"](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/13-may/01-standards-for-project-management/NDS2020_ShareableScience.pdf) lecture given on the 13 May for suggestions!
